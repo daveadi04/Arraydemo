@@ -7,18 +7,56 @@
  *
  * @author adity
  */
-public class studentlist {
-    public static void main(String[] args){
-        Student s1 = new Student("s1","Hevin");
-        Student[] studentList = new Student[3];
-        
-        studentList[0]=s1;
-        studentList[1]=new Student( "s2","abc");
-        studentList[2]=new Student( "s3","def");
-        for(int i=0;i<studentList.length;i++) {
-        System.out.println(studentList[i].getaName());
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package student;
+
+
+public class Student {
+   private String sId;
+   private String sName;
+   private string address:
+
+    public string getAddress() {
+        return address;
     }
-       }
-            }
+
+    public void setAddress(string address) {
+        this.address = address;
+    }
+
+   
+   
+
+    public Student(String sId, String sName) {
+        this.sId = sId;
+        this.sName = sName;
+    }
+
+   
+    public String getsId() {
+        return sId;
+    }
+
+    public void setsId(String sId) {
+        this.sId = sId;
+    }
+
+    public String getsName() {
+        return sName;
+    }
+
+    public void setsName(String sName) {
+        this.sName = sName;
+    }
+   
+   
+   
+   
     
+       
+    }
+    
 }
